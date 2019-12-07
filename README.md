@@ -6,5 +6,7 @@ Interval Multilayer Perceptron is a method which implements multilayer perceptro
 
 ## Structure of the iMLP
 
-<img src="https://github.com/KaishuaiXu/msvr/blob/master/kernel.png?raw=true" alt="kernel function" width="395" height="175" />
+<img src="https://github.com/KaishuaiXu/imlp/blob/master/structure.png?raw=true" alt="kernel function" width="577" height="245" />
+
+## Hidden layer
 
