@@ -10,3 +10,9 @@ Interval Multilayer Perceptron is a method which implements multilayer perceptro
 
 ## Hidden layer
 
+<img src="https://github.com/KaishuaiXu/imlp/blob/master/hidden%20layer.png?raw=true" alt="kernel function" width="425" height="73.5" />
+
+## Activation function
+
+<img src="https://github.com/KaishuaiXu/imlp/blob/master/activation.png?raw=true" alt="kernel function" width="361.5" height="156" />
+
