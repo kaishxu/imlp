@@ -60,5 +60,5 @@ model.fit(x=[Xtrain_c, Xtrain_r], y=[Ytrain_c, Ytrain_r], epochs=10)
 
 ## Loss function
 
-<img src="https://github.com/KaishuaiXu/imlp/blob/master/loss%20function.png?raw=true" alt="kernel function" width="205.5" height="32.5" />
+<img src="https://github.com/KaishuaiXu/imlp/blob/master/loss%20function.png?raw=true" alt="kernel function" width="411" height="65" />
 
