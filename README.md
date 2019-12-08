@@ -42,23 +42,23 @@ model.fit(x=[Xtrain_c, Xtrain_r], y=[Ytrain_c, Ytrain_r], epochs=10)
 
 ## Structure of the iMLP
 
-<img src="https://github.com/KaishuaiXu/imlp/blob/master/structure.png?raw=true" alt="kernel function" width="577" height="245" />
+<img src="https://github.com/KaishuaiXu/imlp/blob/master/pic/structure.png?raw=true" alt="kernel function" width="577" height="245" />
 
 
 
 ## Hidden layer
 
-<img src="https://github.com/KaishuaiXu/imlp/blob/master/hidden%20layer.png?raw=true" alt="kernel function" width="425" height="73.5" />
+<img src="https://github.com/KaishuaiXu/imlp/blob/master/pic/hidden%20layer.png?raw=true" alt="kernel function" width="425" height="73.5" />
 
 
 
 ## Activation function
 
-<img src="https://github.com/KaishuaiXu/imlp/blob/master/activation.png?raw=true" alt="kernel function" width="361.5" height="156" />
+<img src="https://github.com/KaishuaiXu/imlp/blob/master/pic/activation.png?raw=true" alt="kernel function" width="361.5" height="156" />
 
 
 
 ## Loss function
 
-<img src="https://github.com/KaishuaiXu/imlp/blob/master/loss%20function.png?raw=true" alt="kernel function" width="411" height="65" />
+<img src="https://github.com/KaishuaiXu/imlp/blob/master/pic/loss%20function.png?raw=true" alt="kernel function" width="411" height="65" />
 
