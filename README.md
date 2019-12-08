@@ -1,12 +1,15 @@
 # interval Multilayer Perceptron
 
-Interval Multilayer Perceptron is a method which implements multilayer perceptron with interval-valued inputs and interval-valued outputs. This package is based on the paper, [**iMLP**: Applying multi-layer perceptrons to interval-valued data](https://link.springer.com/article/10.1007/s11063-007-9035-z).
+Interval Multilayer Perceptron is a method which implements multilayer perceptron with interval-valued inputs and interval-valued outputs. This package is based on the paper, [**iMLP**: Applying multi-layer perceptrons to interval-valued data](https://link.springer.com/article/10.1007/s11063-007-9035-z), [AM San Roque](https://scholar.google.com/citations?user=Kfu7yNMAAAAJ&hl=en&oi=sra).
 
 
 
 ## Usage
 
 ```python
+from imlp import iAct, iLoss, get_model
+import numpy as np
+
 # Generate the synthetic data
 x1 = np.sin(np.arange(0, 9, 0.01))
 x2 = np.cos(np.arange(0, 9, 0.01))
