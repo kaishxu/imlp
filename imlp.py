@@ -38,7 +38,7 @@ def get_model(input_dim, output_dim, num_units, activation, beta=0.5, num_hidden
 
     for i in range(num_hidden_layers):
         c = Dense(num_units[i], use_bias=True, kernel_initializer='he_normal', bias_initializer='he_normal', 
-                kernel_regularizer=regularizers.l2(0.001), bias_regularizer=regularizers.l2(0.001))(center_x)
+                kernel_regularizer=regularizers.l2(0.001))(center_x)
         r = Dense(num_units[i], use_bias=False, kernel_initializer='he_normal', 
                 kernel_regularizer=regularizers.l2(0.001))(radius_x)
         c, r = iAct(activation[i])([c, r])
