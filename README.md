@@ -32,8 +32,8 @@ for i in range(1,100):
 input_dim = 5
 output_dim = 1
 num_hidden_layers = 2
-num_units = [200, 200]  # only for hidden layers (not output layer)
-act = ['relu', 'relu']  # only for hidden layers (not output layer)
+num_units = [200, 200]
+act = ['relu', 'relu']
 beta = 0.5  # control the balance between center and radius in loss function
 
 # Get model
