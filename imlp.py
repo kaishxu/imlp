@@ -45,7 +45,6 @@ def get_model(input_dim, output_dim, num_units, activation, beta=0.5, num_hidden
 
     c = Dense(output_dim, use_bias=True, kernel_initializer='he_normal', bias_initializer='he_normal')(c)
     r = Dense(output_dim, use_bias=False, kernel_initializer='he_normal')(r)
-    c, r = iAct('relu')([c, r])
     loss_layer = iLoss(beta)
 
     model = Model(inputs=[center_x, radius_x], outputs=[c, r])
