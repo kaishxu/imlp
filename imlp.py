@@ -8,7 +8,7 @@ import numpy as np
 
 # Activation layer
 class iAct(Layer):
-    def __init__(self, activation, **kwargs):
+    def __init__(self, activation='tanh', **kwargs):
         self.activation = activations.get(activation)
         super(iAct, self).__init__(**kwargs)
 
@@ -23,7 +23,7 @@ class iAct(Layer):
 
 # Loss layer, no training required, only for making a custom loss function
 class iLoss(Layer):
-    def __init__(self, beta, **kwargs):
+    def __init__(self, beta=0.5, **kwargs):
         self.beta = beta
         super(iLoss, self).__init__(**kwargs)
 
